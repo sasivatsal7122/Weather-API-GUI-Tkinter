@@ -161,7 +161,7 @@ test_canvas.pack()
 heading = tkinter.Label(input_frame,text="Enter City name:",font=('SimSun', 15,BOLD), bg=input_color,fg=output_color)
 cityy_name = tkinter.Entry(input_frame, width=25, font=('SimSun', 17))
 # submit button using button() in tkinetr
-submit_button = tkinter.Button(input_frame, text='Submit', font=('SimSun', 15,BOLD), bg=input_color,fg=output_color, command=submit_search)
+submit_button = tkinter.Button(input_frame, text='Search', font=('SimSun', 15,BOLD), bg=input_color,fg=output_color, command=submit_search)
 cityy_name.grid(row=1, column=0, padx=(25,0), pady=(0,20))
 submit_button.grid(row=1, column=1, padx=20,pady=(0,20))
 heading.grid(row=0, column=0,pady=(5,5))
