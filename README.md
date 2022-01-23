@@ -23,8 +23,8 @@
 - AerisWeather API
 
 
-In this project an APi of <a href='https://openweathermap.org/api'> OpenWeather </a> is used to request weather of a city by sending a query to the api.
-queery looks like this: 
+In this project an APi of <a href='https://openweathermap.org/api'> OpenWeather </a> is used to request weather of a city by sending a query to the api.\
+query looks like this: 
 
 ```bash
 url :  http://api.openweathermap.org/data/2.5/weather
@@ -45,7 +45,7 @@ which is then this data is formatted into the gui application by using appropiat
 
 # The GUI application looks like this: 
 <p align="center"><img src="preview/collage1.jpg" width="100%"></p>
-<p align="center">(the GUi is made form frames,canvas,entry methods in tkinter)</p>
+<p align="center">(the GUi is made using frames,canvas,entry methods in tkinter)</p>
 <p align="center">(colors are choosen from <a href='https://colorhunt.co/'>colorhunt</a> )</p>
 
 - Any city around the globe can be sent as query and it's current weather condition data can be retrieved and displayed.
@@ -69,4 +69,4 @@ Not just the weather data, even the icon of the weather condition can be retriev
 - No spelling mistakes must be made while sening query. 
 - Enter city name (not country,continent name)  then hit submit.
 
-The main intention behind this project is to learn how to work with api's, gathering/retrieving information from web , formatting and producing it in a GUi application which looks good, minimal and easy to use. Feel free to fork the repo and imporve it by changing ui,colors or add more functionality. You can find detailed code xplanation for every line in comments in <a href='https://github.com/sasivatsal7122/Weather-API-GUI-Tkinter/blob/main/weather_api.py'>source</a>, I will also be posting line to line instructions along with xplanation how to build this application along with other very basic GUi applications in <a href='https://github.com/sasivatsal7122/learn-tkinter-with-me'>learn-tkinter-with-me</a> repo, do check that and it's been a lot of hardwork, struggle making this app work as intended at the same time look good, a lot of trial and error has been made for the colors to make ui look good so leave a star if u like this project.
+#### The main intention behind this project is to learn how to work with api's, gathering/retrieving information from web , formatting and producing it in a GUi application which looks good, minimal and easy to use. Feel free to fork the repo and imporve it by changing ui,colors or add more functionality. You can find detailed code xplanation for every line in comments in <a href='https://github.com/sasivatsal7122/Weather-API-GUI-Tkinter/blob/main/weather_api.py'>source</a>, I will also be posting line to line instructions along with xplanation how to build this application along with other very basic GUi applications in <a href='https://github.com/sasivatsal7122/learn-tkinter-with-me'>learn-tkinter-with-me</a> repo, do check that and it's been a lot of hardwork, struggle making this app work as intended at the same time look good, a lot of trial and error has been made for the colors to make ui look good so leave a star if u like this project.
